@@ -257,6 +257,23 @@ body{
     top: 290px;
     background-color: #fff;
 }
+@keyframes rotatingNose {
+    0%{
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
 .nose {
     width: 155px;
     height: 85px;
@@ -264,6 +281,14 @@ body{
     background-color: #000;
     left: 182.5px;
     top: 320px;
+}
+.nose:hover {    
+    animation-duration: 120ms;
+    animation-name: rotatingNose;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
