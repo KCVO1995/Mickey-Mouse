@@ -7,10 +7,12 @@
 
 body{
     background-color: #c33;
+    overflow: hidden;
 }
 .mickey{
+    border: 1px solid blue;
+    top: -30px;
     position: relative;
-    margin: 0 auto;
     width: 850px;
     height: 890px;
 }
