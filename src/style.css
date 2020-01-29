@@ -9,12 +9,10 @@ body{
     background-color: #c33;
 }
 .mickey{
-    border: 1px solid blue;
     top: -45px;
     position: relative;
     width: 850px;
-    height: 100vh;
-    
+    height: 890px;
 }
 .mickey * {
     position: absolute;
@@ -25,14 +23,14 @@ body{
     height: 525px;
     border-radius: 50%;
     left: 170px;
-    top: 260px;
+    top: 210px;
 }
 .ear {
     background-color: #000;
     height: 350px;
     width: 280px;
     border-radius: 50%;
-    top: 50px;
+    top: 0;
 }
 .ear.left {
     left: 50px;

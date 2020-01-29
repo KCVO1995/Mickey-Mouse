@@ -5,13 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mickey Mouse</title>
-    <link rel="stylesheet" href="style.33b56985.css">
-    <style>pre {
+    <style>* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #code {
             position: absolute;
-            top: 0px;
+            top: 50px;
+            right: 65px;
+            border: 5px solid #000;
+            width: 35vw;
+            height: 80vh;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 15px 0 15px 15px;
+            overflow-y: auto;
+        }
+        #code::-webkit-scrollbar {
+            display: none;
+        }
+        .control {
+            position: absolute;
+            width: 65px;
+            top: 50px;
             right: 0;
-            width: 600px;
-            height: 100vh;
+        }
+        .control > button {
+            background-color: transparent;
+            border: 5px solid #000;
+            border-left: 0;
+            margin-bottom: 20px;
+            outline: none;
+            width: 100%;
+            height: 50px;
+            border-radius: 0 15px 15px 0;
+        }
+        .control > #speed {
+            border: 5px solid #000;
+            border-left: 0;
+            margin-bottom: 20px;
+            width: 100%;
+            height: 50px;
+            line-height: 40px;
+            border-radius: 0 15px 15px 0;
+            text-align: center;
         }</style>
 </head>
 <body>
@@ -51,12 +89,13 @@
         <div class="ear left"></div>
         <div class="ear right"></div>
     </div>
-    <pre class="code"></pre>
+    <style id="styleCss"></style>
+    <pre id="code"></pre>
     <div class="control">
         <button id="speedUp">加速</button>
         <button id="speedDown">减速</button>
-        <div class="speed">{{速度}}</div>
+        <div id="speed">速度: 1</div>
     </div>
-    <script src="main.dfc06931.js"></script>
+    <script src="main.2f12ce0d.js"></script>
 </body>
 </html>

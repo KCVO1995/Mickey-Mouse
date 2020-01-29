@@ -9,12 +9,10 @@ body{
     background-color: #c33;
 }
 .mickey{
-    border: 1px solid blue;
     top: -45px;
     position: relative;
     width: 850px;
-    height: 100vh;
-    
+    height: 890px;
 }
 .mickey * {
     position: absolute;
